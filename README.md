@@ -7,7 +7,7 @@ Things to do:
   - [X] Reactivity
   - [X] Props
   - [X] Logic
-  - [ ] Events
+  - [X] Events
   - [ ] Bindings
   - [ ] Lifecycle
   - [ ] Stores
