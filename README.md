@@ -1,5 +1,5 @@
 # Svelte Practice
-Just practicing using Svelte, working through the tutorial as well as some bonus bits
+Just practicing using Svelte, working through the tutorial as well as some bonus bits. This is meant to act as a resource that I can refer to later when building real Svelte apps and be a foundation for a Svelte project template
 
 Things to do:
 - [ ] Go through Svelte tutorial
