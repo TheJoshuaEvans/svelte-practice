@@ -1,5 +1,6 @@
 <script>
   let count = 0;
+  // The `$:` syntax basically means "run this block every time there is a reload"
   $: doubled = count * 2;
 
   $: {

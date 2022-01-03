@@ -6,7 +6,7 @@ Things to do:
   - [X] Introduction
   - [X] Reactivity
   - [X] Props
-  - [ ] Logic
+  - [X] Logic
   - [ ] Events
   - [ ] Bindings
   - [ ] Lifecycle
