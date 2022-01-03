@@ -3,6 +3,24 @@ Just practicing using Svelte, working through the tutorial as well as some bonus
 
 Things to do:
 - [ ] Go through Svelte tutorial
+  - [X] Introduction
+  - [X] Reactivity
+  - [X] Props
+  - [ ] Logic
+  - [ ] Events
+  - [ ] Bindings
+  - [ ] Lifecycle
+  - [ ] Stores
+  - [ ] Motion
+  - [ ] Transitions
+  - [ ] Animations
+  - [ ] Actions
+  - [ ] Classes
+  - [ ] Component composition
+  - [ ] Context API
+  - [ ] Special elements
+  - [ ] Module context
+  - [ ] Debugging
 - [ ] Implement IAC stuff using CDK
 - [ ] Set up local docker environment
 
