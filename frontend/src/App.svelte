@@ -6,7 +6,10 @@
 
   // Load chapters in reverse order so the latest one is at the top of the page
   const chapters = [
-    Introduction, Reactivity, Props, Logic,
+    {name: 'Introduction', component: Introduction},
+    {name: 'Reactivity', component: Reactivity},
+    {name: 'Props', component: Props},
+    {name: 'Logic', component: Logic},
   ].reverse();
 </script>
 
@@ -23,9 +26,9 @@
 </style>
 
 <h1>Svelte Practice</h1>
-{#each chapters as chapter}
+{#each chapters as {name, component}}
   <div class="chapter-container">
-    <h2>{chapter.name}</h2>
-    <svelte:component this={chapter}/>
+    <h2>{name}</h2>
+    <svelte:component this={component}/>
   </div>
 {/each}
