@@ -1,0 +1,11 @@
+{
+  "name": "svelte-practice-iac",
+  "version": "1.0.0",
+  "description": "Infrastructure as code for Svelte practice",
+  "scripts": {
+    "docker:up": "docker-compose -p svelte-practice up -d",
+    "docker:down": "docker-compose -p svelte-practice down",
+    "attach:frontend": "docker attach svelte-practice-frontend"
+  },
+  "author": "Joshua Evans <thejoshuaevans@gmail.com>"
+}

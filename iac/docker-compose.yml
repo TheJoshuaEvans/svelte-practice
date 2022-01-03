@@ -1,0 +1,11 @@
+services:
+  web:
+    container_name: svelte-practice-frontend
+    image: node:14-alpine
+    command: npm run dev
+    working_dir: /home/node/app
+    volumes:
+      - ../frontend:/home/node/app
+    ports:
+      - 5000:5000
+    restart: unless-stopped

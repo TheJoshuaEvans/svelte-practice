@@ -1,6 +1,17 @@
 # Svelte Practice
 This is an implementation of the [Svelte tutorial](https://svelte.dev/tutorial) and is based of the project template for [Svelte](https://github.com/sveltejs/template) apps
 
+## Commands
+The following commands are supported
+Command | Description
+--------|-----------
+`build` | Build a production web application bundle
+`dev` | Start a development web application environment
+`start` | Serve built web application
+`docker:up` | Convenience alias for the `docker:up` command in the IAC directory
+`docker:down` | Convenience alias for the `docker:down` command in the IAC directory
+`attach` | Convenience alias for the `attach:frontend` command in the IAC directory
+
 ## Get started
 Install the dependencies...
 
