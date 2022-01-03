@@ -5,7 +5,7 @@
   "scripts": {
     "docker:up": "docker-compose -p svelte-practice up -d",
     "docker:down": "docker-compose -p svelte-practice down",
-    "attach:frontend": "docker attach svelte-practice-frontend"
+    "attach:frontend": "docker attach svelte-practice-frontend --sig-proxy=false"
   },
   "author": "Joshua Evans <thejoshuaevans@gmail.com>"
 }
