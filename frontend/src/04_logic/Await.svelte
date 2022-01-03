@@ -1,19 +1,19 @@
 <script>
 	async function getRandomNumber() {
-		const res = await fetch(`https://svelte.dev/tutorial/random-number`);
-		const text = await res.text();
+	  const res = await fetch('https://svelte.dev/tutorial/random-number');
+	  const text = await res.text();
 
-		if (res.ok) {
-			return text;
-		} else {
-			throw new Error(text);
-		}
+	  if (res.ok) {
+	    return text;
+	  } else {
+	    throw new Error(text);
+	  }
 	}
 
 	let promise = getRandomNumber();
 
 	function handleClick() {
-		promise = getRandomNumber();
+	  promise = getRandomNumber();
 	}
 </script>
 

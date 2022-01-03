@@ -2,7 +2,7 @@
   import Nested from './Nested.svelte';
 
   let name = 'world';
-  let src = '/extremely-important-image.gif'
+  let src = '/extremely-important-image.gif';
   let imgAltText = 'A dancing man. You could say he\'s really ROLLING with it';
 </script>
 

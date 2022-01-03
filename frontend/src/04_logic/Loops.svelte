@@ -1,32 +1,32 @@
 <script>
-	let cats = [
-		{ id: 'J---aiyznGQ', name: 'Keyboard Cat' },
-		{ id: 'z_AbfPXTKms', name: 'Maru' },
-		{ id: 'OUtn3pvWmpg', name: 'Henri The Existential Cat' }
-	];
+  let cats = [
+    { id: 'J---aiyznGQ', name: 'Keyboard Cat' },
+    { id: 'z_AbfPXTKms', name: 'Maru' },
+    { id: 'OUtn3pvWmpg', name: 'Henri The Existential Cat' },
+  ];
 
   import Thing from './Thing.svelte';
 
-	let things = [
-		{ id: 1, name: 'apple' },
-		{ id: 2, name: 'banana' },
-		{ id: 3, name: 'carrot' },
-		{ id: 4, name: 'doughnut'},
-		{ id: 5, name: 'egg' },
-	];
+  let things = [
+    { id: 1, name: 'apple' },
+    { id: 2, name: 'banana' },
+    { id: 3, name: 'carrot' },
+    { id: 4, name: 'doughnut'},
+    { id: 5, name: 'egg' },
+  ];
   let thingsCount = 5;
 
-	function handleRemoveThing() {
-		things = things.slice(1);
-	}
+  function handleRemoveThing() {
+    things = things.slice(1);
+  }
 
   function handleAddThing() {
-		things = [ ...things, {
+    things = [ ...things, {
       id: thingsCount + 1,
       name: 'thing ' + (thingsCount + 1),
     }];
     thingsCount++;
-	}
+  }
 </script>
 
 <button on:click={handleRemoveThing}>

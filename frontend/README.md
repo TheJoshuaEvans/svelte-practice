@@ -8,6 +8,8 @@ Command | Description
 `build` | Build a production web application bundle
 `dev` | Start a development web application environment
 `start` | Serve built web application
+`lint` | Run the linter to detect linting issues
+`lint:fix` | Run the linter and automatically fix any trivial issues
 `docker:up` | Convenience alias for the `docker:up` command in the IAC directory
 `docker:down` | Convenience alias for the `docker:down` command in the IAC directory
 `attach` | Convenience alias for the `attach:frontend` command in the IAC directory

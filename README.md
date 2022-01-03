@@ -23,6 +23,7 @@ Things to do:
   - [ ] Debugging
 - [ ] Implement IAC stuff using CDK
 - [X] Set up local docker environment
+- [X] Set up ESLint
 
 ## Project Structure
 This project is split into ~~three~~ two directories [frontend](frontend) and [iac](iac). A backend directory would also exist if this project had any backend components (and it will eventually, I just don't feel like diving into LocalStack right now)

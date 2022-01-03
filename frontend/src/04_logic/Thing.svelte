@@ -1,18 +1,18 @@
 <script>
-	const emojis = {
+  const emojis = {
     apple: '🍎',
     banana: '🍌',
     carrot: '🥕',
     doughnut: '🍩',
-    egg: '🥚'
-	}
+    egg: '🥚',
+  };
 
-	// the name is updated whenever the prop value changes...
-	export let name;
+  // the name is updated whenever the prop value changes...
+  export let name;
   export let index;
 
-	// ...but the "emoji" variable is fixed upon initialisation of the component
-	const emoji = emojis[name];
+  // ...but the "emoji" variable is fixed upon initialisation of the component
+  const emoji = emojis[name];
 </script>
 
 <p>
