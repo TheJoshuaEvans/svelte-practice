@@ -1,9 +1,13 @@
 <script>
+  import Props from './props/Props.svelte';
+  import Reactivity from './reactivity/Reactivity.svelte';
   import Introduction from './introduction/Introduction.svelte';
-  import Reactivity from './reactivity/Reactivity.svelte'
 </script>
 
 <h1>Svelte Practice</h1>
+<h2>Props</h2>
+<Props/>
+
 <h2>Reactivity</h2>
 <Reactivity/>
 
