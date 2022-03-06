@@ -25,8 +25,8 @@
     {name: 'Media Elements', component: MediaElements},
     {name: 'Dimensions', component: Dimensions},
     {name: 'This', component: This},
-    {name: 'ComponentBindings', component: ComponentBindings},
-    {name: 'ComponentInstances', component: ComponentInstances},
+    {name: 'Component Bindings', component: ComponentBindings},
+    {name: 'Component Instances', component: ComponentInstances},
   ].reverse();
 </script>
 
