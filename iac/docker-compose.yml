@@ -7,6 +7,6 @@ services:
     volumes:
       - ../frontend:/home/node/app
     ports:
-      - 5000:5000   # Web application access
+      - 5000:8080   # Web application access
       - 35729:35729 # Live reloading
     restart: unless-stopped
