@@ -8,7 +8,7 @@ Things to do:
   - [X] Props
   - [X] Logic
   - [X] Events
-  - [ ] Bindings
+  - [X] Bindings
   - [ ] Lifecycle
   - [ ] Stores
   - [ ] Motion
